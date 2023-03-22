@@ -40,7 +40,7 @@ const Cards = () => {
                 key={i}
                 className="card font-medium shadow-lg p-3 hover:-translate-y-3 cursor-pointer mt-6 transition-all duration-500"
               >
-                <img className="h-52 size md:h-72" src={e.image} />
+                <img className="h-52 w-36 md:w-48 md:h-72" src={e.image} />
                 <h1>{e.title}</h1>
                 <h1>
                   <span className="text-gray-500 mr-1">rating : </span>
